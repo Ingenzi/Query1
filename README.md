@@ -16,5 +16,11 @@ Terminal
 ## link to live site on GitHub Pages
 https://github.com/Ingenzi/quiz
 
+## contact info
+## ingenziass@gmail.com
+## +250 786 007 086
+## License & copyright information
+
 ## contributor
 -Ingenzi Assumpta <ingenziass@gmail.com>
+
