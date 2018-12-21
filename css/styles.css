@@ -6,5 +6,15 @@
         word-spacing: 8px;
         font-size: 2.25em!important;
         text-shadow: 3px 2px black;
-     
+      }
+      body{
+        background-color: bisque;
+      }
+    
+    Q1,Q2,Q3,Q4{
+      color: #000;
+    }
+    
+   
+        
       
