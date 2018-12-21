@@ -21,11 +21,17 @@
     .submit{
       float: left;
       border: px solid green;
-      background-color: #4CAF50; /* Green */
+      background-color: #4CAF50; 
     }
     .submit:hover {
      
       color: white;
+    }
+    ul{
+      
+      text-justify: auto;
+      text-decoration: none;
+      font-style: italic;
     }
       
       
