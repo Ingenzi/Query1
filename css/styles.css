@@ -18,5 +18,14 @@
     h2 {
       word-spacing: 3px;
     }
+    .submit{
+      float: left;
+      border: px solid green;
+      background-color: #4CAF50; /* Green */
+    }
+    .submit:hover {
+     
+      color: white;
+    }
       
       
