@@ -18,6 +18,7 @@
     
     h2 {
       word-spacing: 3px;
+      scroll-behavior: auto;
     }
     .submit{
       float: left;
