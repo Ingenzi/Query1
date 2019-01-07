@@ -16,6 +16,6 @@ function myTest() {
     if (q4 == "The delete keyword") {
 
     }
-    alert("your score is:" + marks);
+    alert("your score is:" + marks)
     event.preventDefault();
 }
