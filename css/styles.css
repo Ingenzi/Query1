@@ -20,6 +20,7 @@
       word-spacing: 3px;
       scroll-behavior: auto;
       font-style: normal;
+      clip-rule: initial;
     }
     .submit{
       float: left;
