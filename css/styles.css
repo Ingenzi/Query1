@@ -32,12 +32,13 @@
       text-justify: auto;
       text-decoration: none;
       font-style: italic;
+      text-decoration: none;
     }
   
   footer{
     text-align: center;
     font-style: initial;
-    color:ghostwhite;
+    color:palevioletred;
     text-emphasis: inherit;
   }
  
