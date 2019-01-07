@@ -6,6 +6,7 @@
         word-spacing: 8px;
         font-size: 2.25em!important;
         text-shadow: 1px 1px black;
+        text-emphasis: none;
       }
       body{
         background-color: bisque;
