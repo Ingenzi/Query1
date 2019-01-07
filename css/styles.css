@@ -33,9 +33,12 @@
       text-decoration: none;
       font-style: italic;
     }
-    footer{
-      text-align: center;
-    }
+  
+  footer{
+    text-align: center;
+    font-style: initial;
+  }
+ 
     #six{
       float: right;
     }

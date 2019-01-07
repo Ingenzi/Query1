@@ -17,4 +17,5 @@ function myTest() {
 
     }
     alert("your score is:" + marks);
+    event.preventDefault();
 }
