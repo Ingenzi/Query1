@@ -1,36 +1,61 @@
-/*function myTest() {
-    var q1 = document.form["myform"]["optradio1"].val();
-    var q2 = document.form["myform"]["optradio2"].val();
-    var q3 = document.form["myform"]["optradio3"].val();
-    var q4 = document.form["myform"]["optradio4"].val();
-    var marks = 0;
-    if (q1 == "An object-oriented computer programming language commonly used to create interactive effects within web browsers.") {
-        marks = marks + 5;
-    }
-    if (q2 == "Netscape") {
-        marks = marks + 5;
-    }
-    if (q3 == "None") {
-        marks = marks + 5;
-    }
-    if (q4 == "The delete keyword") {
+        $(document).ready(function(){
 
-    }
-    alert("your score is:" + marks)
-    event.preventDefault();
-}
-*/
-$(document).ready(function (){
-    $('#blanks form').submit(function(event){
-    var marks=0;
-      var blanks=["choice1", "choice2","choice3","choice4"]
-        blanks.forEach(function(blank) {
-            var userInput = $("input:radio[name=" + blank + "]:checked" ).val();
-                    if(userInput=="B"){
-                    marks = marks+10;
-                    }
-                })
-          alert(marks)
-    event.preventDefault();
-    });
-    });
+            $("form").submit(function(event){
+                event.preventDefault();
+                var optradio1 = $("input[type='radio'][name='answer1']:checked").val();
+                // alert(optradio1);
+                var optradio2 = $("input[type='radio'][name='answer2']:checked").val();
+                
+                var optradio3 = $("input:radio[name=answer3]:checked").val();
+                var optradio4 = $("input:radio[name=answer4]:checked").val();
+                var marks = [optradio1, optradio2, optradio3, optradio4]
+                var score= calculateScore(marks);
+                $(".final").show();
+                $("#display").text("Your score is:" + calculateScore());
+              });
+        //   $("#blanks form").submit(function(event){
+        //     console.log(event);
+            
+        //     // var optradio1 = $("input[type:'radio'][name='answer1']:checked").val();
+        //     // var optradio2 = $("input:radio[name=answer2]:checked").val();
+        //     // var optradio3 = $("input:radio[name=answer3]:checked").val();
+        //     // var optradio4 = $("input:radio[name=answer4]:checked").val();
+        //     // var marks = [optradio1,optradio2,optradio3,optradio4]
+        //     // var score= calculateScore(marks);
+      
+            
+      
+          
+        //     $(".final").show();
+        //     $("#display").text("Your score is:" + marks);
+           
+
+            
+        //   })
+        });
+
+       function calculateScore(marks){
+        //    var otradio1=answers["0"]
+        //    var otradio2=answers[1]
+        //    var otradio3=answers[2]
+        //    var otradio4=answers[3]
+           console.log(marks["1"]);
+        //    var marks=0;
+        //    if(otradio1=="5")
+        //    {
+        //        marks=marks+5;
+        //    }
+        //    if(otradio2=="5")
+        //    {
+        //        marks=marks+5;
+        //    }
+        //    if(otradio3=="5")
+        //    {
+        //        marks=marks+5;
+        //    }
+        //    if(otradio4=="5")
+        //    {
+        //        marks=marks+5;
+        //    }
+        //    return marks;
+       }

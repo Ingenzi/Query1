@@ -10,11 +10,17 @@
       }
       body{
         background-color: bisque;
+        border: 3 3 3 3;
+        margin-block-end: 40px;
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+        border-style: solid;
       }
     
     Q1,Q2,Q3,Q4{
       color: #000;
-      font-family: monospace;
+      font-family: initial;
     }
     
     h2 {
@@ -25,7 +31,7 @@
     }
     .submit{
       float: left;
-      border: px solid green;
+      border: 2px solid green;
       background-color: #4CAF50; 
     }
     .submit:hover {
@@ -51,5 +57,14 @@
     #six{
       float: right;
     }
+    .your-score {
+      text-align: center;
+      font-weight: bold;
+      font-size: 150%;
+    }
+   .final{
+     display: none;
+   }
+   
       
       
