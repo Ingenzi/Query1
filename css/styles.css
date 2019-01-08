@@ -62,9 +62,21 @@
       font-weight: bold;
       font-size: 150%;
     }
-   .final{
-     display: none;
-   }
    
-      
+ .final{
+   text-align: center;
+   border: 3 3 3 3;
+   border-right: 50%;
+   border-left: 50%;
+   display: none;
+  
+ } 
+ #display{
+   font-size: 60px;
+  
+ } 
+ #last{
+   font-size: 20px;
+
+ }   
       
